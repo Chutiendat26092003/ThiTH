@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+table tr th {
+    width: 20%;
+    height: 32px;
+}
+
+table tr,
+th,
+td {
+    border-bottom: 1px solid black;
+}
+
+
+.container button a{
+    color: black;
+}
+
+.edit {
+    background-color: blue;
+    padding: 4px 12px;
+}
+
+.details {
+    background-color: green;
+    padding: 4px 12px;
+}
+
+.delete {
+    background: red;
+    padding: 4px 12px;
+}
+
+table tr th {
+    width: unset;
+    height: 32px;
+}
